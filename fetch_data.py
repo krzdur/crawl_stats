@@ -2,7 +2,7 @@ from crawl_stats_fetch import FetchCrawlStats
 import pandas as pd
 import getpass
 
-username = input('Enter your email address.\n Make sure you have enabled 2-factor authentication via smartphone:\n')
+username = input('Make sure you have enabled 2-factor authentication via smartphone and ENTER YOUR EMAIL:\n')
 #password = input('After entering the password you have 10 seconds to authenticate. Password:\n')
 password = getpass.getpass()
 

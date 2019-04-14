@@ -13,7 +13,7 @@ import numpy as np
 class FetchCrawlStats:
     def __init__(self):
         # initialize browser
-        print('Put Chromedriver execuatble to the same directory')
+        print()
         options = webdriver.ChromeOptions()
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--ignore-ssl-errors')
@@ -50,7 +50,7 @@ class FetchCrawlStats:
         url = 'https://www.google.com/webmasters/tools/crawl-stats?hl=en&siteUrl={0}/'.format(website)
         self.driver.maximize_window()
         self.driver.get(url)
-        print('Fetching stats for {0}'.format(website))
+        print('\nFetching stats for {0}'.format(website))
 
     def fetch_data(self, xpath):
         xpath = xpath
