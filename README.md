@@ -1,4 +1,4 @@
-[!][status-deprecated](https://img.shields.io/badge/status-deprecated-orange)
+![status-deprecated](https://img.shields.io/badge/status-deprecated-orange)
 # SC crawl stats scraper
 
 ---------------
